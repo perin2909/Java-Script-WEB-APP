@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Dynamic Counter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h1>Dynamic Counter</h1>
+    <p id="count">0</p>
+    
+    <div class="controls">
+      <button id="decrementBtn" class="btn secondary">- Decrease</button>
+      <button id="resetBtn" class="btn danger">Reset</button>
+      <button id="incrementBtn" class="btn primary">+ Increase</button>
+    </div>
+    
+    <button id="saveBtn" class="btn outline">Save Current Count</button>
+    
+    <div class="history-section">
+      <h3>Saved History</h3>
+      <ul id="historyList"></ul>
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html>
